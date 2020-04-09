@@ -30,3 +30,57 @@ element.style {
     background-color: green;
     outline: 5px dashed blue;
 }
+
+
+/* positioning example */
+.fixed {
+    top: 0;
+    left: 0;
+    padding: 40px;
+    margin: 0;
+    text-align: center;
+    background: red;
+  }
+  .wrapper {
+    width: 600px;
+    padding: 20px;
+    margin: 0 auto;
+  }
+  .relative {
+    height: 200px;
+    padding: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    background: #eee;
+  }
+  .absolute {
+    right: -30px;
+    bottom: 0;
+    width: 250px;
+    padding: 20px;
+    text-align: center;
+    background: #999;
+  }
+
+
+.hover-state:hover {
+    color: tan;
+    background-color: yellow;
+    border-radius: 3px;
+    border-color: white
+    
+}
+
+a.visited-state:visited {
+    color: brown;
+    background: white;
+}
+
+
+
+
+
+
+
+
+
