@@ -1,0 +1,62 @@
+/**
+ * Float Layout Activity
+ **/
+ * {
+    box-sizing: border-box;
+  }
+  h1,
+  h2,
+  h3,
+  h4 {
+    font-family: Roboto, sans-serif;
+  }
+  body {
+    font-size: 24px;
+    line-height: 32px;
+    color: #333;
+    font-family: "Roboto Slab", sans-serif;
+    padding: 175px;
+  }
+  section {
+    margin-bottom: 20px;
+  }
+  #sidebar {
+    background: #eee;
+    height: 300px;
+    padding: 20px;
+    width: 20%;
+    float: left;
+  }
+  #largeContent {
+    width: 80%;
+    height: 300px;
+    background-color: #6ea3da;
+    float: left;
+  }
+  #left {
+    width: 30%;
+    padding: 10px;
+    height: 400px;
+    color: #fff;
+    background: #666;
+    float: left;
+  }
+  #middle {
+    width: 30%;
+    padding: 10px;
+    background: #888;
+    float: left;
+  }
+  #right {
+    padding: 10px;
+    background: #666;
+    height: 400px;
+  }
+  footer {
+    padding: 10px;
+    background: #ccc;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    height: 175px;
+  }

@@ -1,0 +1,32 @@
+.flower-image{
+    background-image: url(../images/purpleflower.jpg);
+}
+.section {
+    width: 80%;
+    display: block;
+    margin: 0 auto;
+    outline: 1px solid red;
+    margin-top: 15px;
+    height: 200px;
+    background-color: gray;
+    color: white;
+}
+.singflower-image{
+    background-image: url(../images/singflower.JPG);
+}
+.branches-image{
+    background-image: url(../images/branch.JPG);
+}
+.lemon-image{
+    background-image: url(../images/lemons.JPG);
+}
+
+element.style {
+}
+.fruit-image {
+    background-image: url(../images/fruit.jpg);
+}
+.different {
+    background-color: green;
+    outline: 5px dashed blue;
+}

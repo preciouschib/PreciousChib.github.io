@@ -1,0 +1,27 @@
+body {
+
+    background-size: cover;
+}
+
+img {
+    border-radius: 50%;
+    border-color: black;
+    border-style: dotted;
+}
+
+#firstbox {
+    width: 200px;
+    height: 200px;
+    background-color: green;
+    border: dashed;
+    padding: 5px;
+}
+
+#secondbox {
+    width: 100px;
+    height: 100px;
+    background-color: tan;
+    border: ridge;
+    padding: 5px;
+    margin: 10px;
+}
