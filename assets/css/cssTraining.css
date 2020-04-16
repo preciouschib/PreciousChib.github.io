@@ -5,10 +5,10 @@
     width: 80%;
     display: block;
     margin: 0 auto;
-    outline: 1px solid red;
+    outline: 1px solid gray;
     margin-top: 15px;
     height: 200px;
-    background-color: gray;
+    background-color: white;
     color: white;
 }
 .singflower-image{
@@ -27,8 +27,8 @@ element.style {
     background-image: url(../images/fruit.jpg);
 }
 .different {
-    background-color: green;
-    outline: 5px dashed blue;
+    background-color: white;
+    outline: 2px dashed green;
 }
 
 
@@ -39,7 +39,7 @@ element.style {
     padding: 40px;
     margin: 0;
     text-align: center;
-    background: red;
+    background: burlywood;
   }
   .wrapper {
     width: 600px;
@@ -76,11 +76,38 @@ a.visited-state:visited {
     background: white;
 }
 
+div.col-sm-3 {
+    height: 200px;
+    background-color: tan;
+}
 
+div.col-sm-4 {
+    height: 200px;
+    background-color: gray;
+}
 
+div.col-sm-5 {
+    height: 200px;
+    background-color: darkgreen;
+}
 
+div.col-5 {
+    height: 100px;
+    background-color: lightcoral;
+}
 
+div.col-5sec {
+    height: 100px;
+    background-color: yellow;
+}
 
+div.col-5third{
+    height: 100px;
+    background-color: blueviolet;
+}
 
-
+div.col-5fourth {
+    height: 100px;
+    background-color:brown;
+}
 

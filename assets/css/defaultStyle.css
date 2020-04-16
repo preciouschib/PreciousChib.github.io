@@ -1,5 +1,8 @@
 body {
     background-color: white;
-    background-image: url("../images/texture-15.JPG");
+    background-image: url("../images/purpleflower.JPG");
     background-size: cover;
+}
+.nagBG {
+    background-color: burlywood;
 }

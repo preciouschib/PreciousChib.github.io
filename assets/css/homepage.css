@@ -1,27 +1,49 @@
-body {
-
+#backpic{
+    background-color: white;
+    background-image: url("../images/purpleflower.JPG");
     background-size: cover;
 }
 
-img {
+#title {
+    font-family: 'Times New Roman';
+    font-style: inherit;
+    font-stretch: semi-expanded;
+    color: white;
+    
+}
+.img { 
     border-radius: 50%;
-    border-color: black;
-    border-style: dotted;
+    border-width: 4px;
+    border-color: white;
+    border: dotted;
+    padding: 5px;
+    margin: 10px;
+}
+
+#subt{
+    font-family: 'Times New Roman';
+    font-style: inherit;
+    font-size: large;
+    color: white;
+    font-stretch: semi-expanded;
 }
 
 #firstbox {
     width: 200px;
-    height: 200px;
-    background-color: green;
-    border: dashed;
+    height: 100px;
+    background-color: tan;
+    border: dashed; 
+    border-color: black;
     padding: 5px;
+    margin: 10px;
 }
 
 #secondbox {
-    width: 100px;
+    width: 200px;
     height: 100px;
     background-color: tan;
-    border: ridge;
+    border: dashed;
+    border-color: black;
     padding: 5px;
     margin: 10px;
 }
