@@ -31,6 +31,12 @@ element.style {
     outline: 2px dashed green;
 }
 
+.text-background {
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
 
 /* positioning example */
 .fixed {
@@ -64,21 +70,21 @@ element.style {
 
 
 .hover-state:hover {
-    color: tan;
-    background-color: yellow;
+    color:black;
+    background-color: white;
     border-radius: 3px;
     border-color: white
     
 }
 
 a.visited-state:visited {
-    color: brown;
-    background: white;
+    color: darkgreen;
+    background: whitesmoke;
 }
 
 div.col-sm-3 {
     height: 200px;
-    background-color: tan;
+    background-color:mediumslateblue;
 }
 
 div.col-sm-4 {

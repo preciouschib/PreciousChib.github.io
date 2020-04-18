@@ -5,13 +5,33 @@
 }
 
 #title {
+    text-align: center;
     font-family: 'Times New Roman';
     font-style: inherit;
     font-stretch: semi-expanded;
+    color: white;  
+}
+.sectionPC hr {
+    border: 2px solid white;
+    width: 30%
+}
+hr {
+    box-sizing: content-box;
+    line-height: 1.5;
+    text-decoration-line: underline;
+    overflow: visible;
     color: white;
     
 }
+
+#PC {
+    color: white;
+    text-align: center;
+    font-family: 'Times New Roman';
+
+}
 .img { 
+vertical-align: middle;
     border-radius: 50%;
     border-width: 4px;
     border-color: white;
@@ -26,8 +46,13 @@
     font-size: large;
     color: white;
     font-stretch: semi-expanded;
+    margin: 10px;
 }
-
+.intro {
+    margin: 10px;
+    color: white;
+    font-family: 'Times New Roman';
+}
 #firstbox {
     width: 200px;
     height: 100px;
@@ -46,4 +71,46 @@
     border-color: black;
     padding: 5px;
     margin: 10px;
+}
+
+.sectionTitle {
+    text-align: center;
+    margin: 20px;
+    color: yellow;
+    font-family: 'Times New Roman';
+    font-size: 25px;
+}
+
+.card-title {
+    color:gray;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+    margin: 15px;
+    text-align: center;
+}
+
+.card-img-top {
+    height: 200px;
+    width: 100%;
+}
+
+.card-text {
+    color: gray;
+    font-family: 'Times New Roman', Times, serif;
+    margin-left: 20px;
+    text-align: center;
+}
+
+a.btn.name {
+    align-content: center;
+    background-color: gray;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+}
+
+.btn{
+    text-align: center;
+    vertical-align: middle;
+    cursor: pointer;
 }

@@ -3,6 +3,18 @@ body {
     background-image: url("../images/purpleflower.JPG");
     background-size: cover;
 }
-.nagBG {
+.navBG a {
     background-color: burlywood;
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+}
+
+}
+#H4H {
+    font-weight: bolder;
+   }
+
+.customNavBg a {
+    background-color: burlywood;
+    color: white;
 }
