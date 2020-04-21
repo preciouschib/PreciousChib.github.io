@@ -3,11 +3,32 @@ body {
     background-image: url("../images/purpleflower.JPG");
     background-size: cover;
 }
+/* nav */
+.navBG {
+    background-color: burlywood!important;
+}
+.navBG span.navbar-toggler-icon > i {
+    color: white;
+    font-size: 30px;
+}
+.navBG >a.navbar-brand:hover {
+    color: white;
+}
+.navBG li {
+    margin-right: 20px;
+}
+.navBG li > a:hover {
+    color: darkgreen;
+    text-decoration: dashed;
+    font-weight: bold;
+    transform: scale(1);
+}
 .navBG a {
     background-color: burlywood;
     font-family: 'Times New Roman', Times, serif;
     color: white;
 }
+
 
 }
 #H4H {

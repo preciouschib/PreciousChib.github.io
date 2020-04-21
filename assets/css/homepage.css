@@ -10,7 +10,14 @@
     font-style: inherit;
     font-stretch: semi-expanded;
     color: white;  
+    text-decoration: underline; 
 }
+.navBG span.navbar-toggler-icon > i.fas.fa-bars {
+    color: white;
+    font-size: 30px;
+}
+
+
 .sectionPC hr {
     border: 2px solid white;
     width: 30%
@@ -20,8 +27,7 @@ hr {
     line-height: 1.5;
     text-decoration-line: underline;
     overflow: visible;
-    color: white;
-    
+    color: white;   
 }
 
 #PC {

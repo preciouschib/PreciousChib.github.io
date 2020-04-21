@@ -11,6 +11,9 @@
     background-color: white;
     color: white;
 }
+.PurpleFlowers {
+    background-image: url(../images/purpleflower.JPG);
+}
 .singflower-image{
     background-image: url(../images/singflower.JPG);
 }
