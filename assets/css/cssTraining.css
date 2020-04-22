@@ -76,7 +76,8 @@ element.style {
     color:black;
     background-color: white;
     border-radius: 3px;
-    border-color: white
+    border-color: white;
+    margin: 15px;
     
 }
 
@@ -85,19 +86,26 @@ a.visited-state:visited {
     background: whitesmoke;
 }
 
+.container {
+    color: white;
+}
+
 div.col-sm-3 {
     height: 200px;
-    background-color:mediumslateblue;
+    background-color:mediumturquoise;
+    text-decoration: white;
 }
 
 div.col-sm-4 {
     height: 200px;
     background-color: gray;
+    text-decoration: white
 }
 
 div.col-sm-5 {
     height: 200px;
     background-color: darkgreen;
+    text-decoration: white
 }
 
 div.col-5 {
