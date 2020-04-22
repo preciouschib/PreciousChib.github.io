@@ -11,20 +11,22 @@
     background-color: white;
     color: white;
 }
-.PurpleFlowers {
-    background-image: url(../images/purpleflower.JPG);
+
+/* pic blocks */
+.cloud-image {
+    background-image: url(../images/clouds.JPG);
 }
-.singflower-image{
+.singflower-image {
     background-image: url(../images/singflower.JPG);
 }
-.branches-image{
+.branches-image {
     background-image: url(../images/branch.JPG);
 }
-.lemon-image{
+.lemon-image {
     background-image: url(../images/lemons.JPG);
 }
-
-element.style {
+.edge-image {
+    background-image: url(../images/edge-16.JPG);
 }
 .fruit-image {
     background-image: url(../images/fruit.jpg);
@@ -60,33 +62,36 @@ element.style {
     padding: 20px;
     margin-bottom: 20px;
     text-align: center;
-    background: #eee;
+    background: brown;
   }
   .absolute {
-    right: -30px;
-    bottom: 0;
+    right: 30px;
     width: 250px;
     padding: 20px;
     text-align: center;
     background: #999;
   }
 
-
+.hover-state {
+    text-align: center;
+}
 .hover-state:hover {
     color:black;
     background-color: white;
     border-radius: 3px;
-    border-color: white;
-    margin: 15px;
-    
+    border-color: white;  
 }
 
 a.visited-state:visited {
     color: darkgreen;
-    background: whitesmoke;
 }
 
 .container {
+    color: white;
+}
+
+.container-fluid {
+    text-align: center;
     color: white;
 }
 
@@ -107,24 +112,13 @@ div.col-sm-5 {
     background-color: darkgreen;
     text-decoration: white
 }
+.flex-display {
+    display: flex;
+    background-color: silver;
+    padding: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    align-items: center;
+    justify-content: space-between;
 
-div.col-5 {
-    height: 100px;
-    background-color: lightcoral;
-}
-
-div.col-5sec {
-    height: 100px;
-    background-color: yellow;
-}
-
-div.col-5third{
-    height: 100px;
-    background-color: blueviolet;
-}
-
-div.col-5fourth {
-    height: 100px;
-    background-color:brown;
-}
 
