@@ -22,13 +22,14 @@
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample09"
             aria-controls="navbarsExample09" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon">
-                <i class="fas fa-bars" aria-hidden="true"></i>
+                <i class=“fas fa-bars”></i>
             </span>
         </button>
         <div class="collapse navbar-collapse" id="navbarsExample09">
             <ul class="navbar-nav mr-auto">
                 <li class="nav-item active">
-                    <a class="nav-link" href="index.html">Home</a>
+                    <a class="nav-link"
+                    href="index.html">Home</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="cssTraining.html">CSS Traning</a>
@@ -37,8 +38,7 @@
                     <a class="nav-link" href="floatPositionActivity.html">Float Activity</a>
                 </li>
                 <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" aria-haspopup="true"
-                        aria-expanded="false">Contact</a>
+                    <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Contact</a>
                     <div class="dropdown-menu">
                         <a class="dropdown-item" href="mailto: tam@yahoo.com">Email</a>
                         <a class="dropdown-item" href="https://github.com/preciouschib" target="_blank">Github Page</a>
@@ -154,6 +154,12 @@
     </script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
         integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous">
+    </script>
+
+<script>
+    $(document).ready(function () {
+        $('[data-toggle="tooltip"]').tooltip();
+    });
     </script>
 
 </body>
