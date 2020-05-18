@@ -1,11 +1,7 @@
-body {
-    background-color: white;
-    background-image: url("../images/purpleflower.JPG");
-    background-size: cover;
-}
+
 /* nav */
 .navBG {
-    background-color: burlywood!important;
+    background-color: rgb(225, 201, 170)!important;
 }
 .navBG span.navbar-toggler-icon > i {
     color: white;
@@ -18,19 +14,17 @@ body {
     margin-right: 20px;
 }
 .navBG li > a:hover {
-    color: darkgreen;
+    color: palevioletred;
     text-decoration: dashed;
     font-weight: bold;
     transform: scale(1);
 }
 .navBG a {
-    background-color: burlywood;
+    background-color:  rgb(225, 201, 170);
     font-family: 'Times New Roman', Times, serif;
     color: white;
 }
 
-
-}
 #H4H {
     font-weight: bolder;
    }

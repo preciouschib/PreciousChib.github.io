@@ -14,7 +14,9 @@
     text-decoration-style: dotted;
     padding: 20px;   
 }
-
+.containercustom {
+    margin: 25px;
+}
 /* pic blocks */
 .s1{
     background-image: url(../imagescsstraining/service\ 1\ copy.JPG);
