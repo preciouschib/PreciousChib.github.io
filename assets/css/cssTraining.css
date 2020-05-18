@@ -12,34 +12,53 @@
     color: white;
 }
 
-/* pic blocks */
-.cloud-image {
-    background-image: url(../images/clouds.JPG);
-}
-.singflower-image {
-    background-image: url(../images/singflower.JPG);
-}
-.branches-image {
-    background-image: url(../images/branch.JPG);
-}
-.lemon-image {
-    background-image: url(../images/lemons.JPG);
-}
-.edge-image {
-    background-image: url(../images/edge-16.JPG);
-}
-.fruit-image {
-    background-image: url(../images/fruit.jpg);
-}
-.different {
-    background-color: white;
-    outline: 2px dashed green;
-}
 
 .text-background {
     text-align: center;
     font-size: 20px;
     font-family: 'Times New Roman', Times, serif;
+}
+
+sectionTitle {
+    text-align: center;
+    margin: 20px;
+    color: yellow;
+    font-family: 'Times New Roman';
+    font-size: 25px;
+}
+
+.card-title {
+    color:gray;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+    margin: 15px;
+    text-align: center;
+}
+
+.card-img-top {
+    height: 200px;
+    width: 100%;
+}
+
+.card-text {
+    color: gray;
+    font-family: 'Times New Roman', Times, serif;
+    margin-left: 20px;
+    text-align: center;
+}
+
+a.btn.name {
+    align-content: center;
+    background-color: gray;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+}
+
+.btn{
+    text-align: center;
+    vertical-align: middle;
+    cursor: pointer;
 }
 
 
