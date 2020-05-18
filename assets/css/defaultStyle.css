@@ -24,6 +24,9 @@
     font-family: 'Times New Roman', Times, serif;
     color: white;
 }
+.dropdown-item {
+    color: palevioletred;
+}
 
 #H4H {
     font-weight: bolder;
