@@ -9,21 +9,22 @@ background-image: url("../imagesfloatpage/lightpinkflowers.CR3");
   #sidebar {
     margin-top: 30px;
     margin-left: 30px;
-    background: transparent;
-    height: 300px;
+    height: 200px;
     padding: 10px;
     float: left;
     color: white;
-    width: 10%;
   }
   #largebar {
-    width: 85%;
     height: 200px;
     background-color: #d7d7d7;
     float: left;
     padding: 10px;
     color: white;
     text-align: center;
+  }
+
+  .container-fluid {
+    width: 100%;
   }
 
 /* circle images */
@@ -86,7 +87,6 @@ div.col-sm-3 {
   background-color: silver;
   padding: 20px;
   margin-top: 10px;
-  margin-left: 10px;
   align-items: center;
   justify-content: space-between;
   font-size: 12px;

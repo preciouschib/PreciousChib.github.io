@@ -41,12 +41,10 @@
     border-radius: 50%;
 }
 
-
 .navBG span.navbar-toggler-icon>i.fas.fa-bars {
     color: white;
     font-size: 30px;
 }
-
 
 .sectionPC hr {
     border: 2px solid white;
@@ -117,7 +115,6 @@ hr {
     background-color: silver;
     padding: 20px;
     margin-top: 10px;
-    margin-left: 10px;
     align-items: center;
     justify-content: space-between;
     font-size: 12px;

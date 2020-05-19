@@ -2,7 +2,8 @@
 /* service title */
 .title {
     text-align: center;
-    margin-top: 15px;
+    margin-top: 20px;
+    margin-bottom: 30px;
     font-size: 30px;
 }
 
@@ -18,7 +19,8 @@
 
 .card-title {
     color:black;
-    font-size: 15px;
+    font-size: 18px;
+    font-weight: bolder;
     margin: 5px;
     text-align: center;
 }
@@ -26,6 +28,7 @@
 .card-text {
     color: rgb(99, 99, 99);
     margin-left: 12px;
+    font-size: 15px;
     text-align: center;
 }
 
@@ -52,17 +55,23 @@ a.visited-state:visited {
 }
 
  /*  */
-.container {
-    color: black;
-    font-size: 15px;
-}
 .tip {
     text-align: center;
     font-size: 25px;
     margin-bottom: 10px;
     margin-top: 20px;
-    font-weight: bold;
+
 }
+#p1 {
+    font-size: 15px;
+    text-align: right;
+}
+#p2 {
+    font-size: 15px;
+    text-align: left;
+}
+
+
 /* flex footer */
 .flex-display {
     display: flex;
