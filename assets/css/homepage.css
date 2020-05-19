@@ -21,26 +21,26 @@
     margin: 5px;
 }
 
-/* pic blocks */
-.s1 {
-    background-image: url(../imagescsstraining/service\ 1\ copy.JPG);
-    height: 300px;
+/* carousel */
+.wf {
+    justify-content: center;
+    display: flex;
 }
 
-.s2 {
-    background-image: url(../imagescsstraining/service\ 2\ copy.JPG);
-    height: 300px;
+.wfc {
+    text-align: center;
+    font-size: 10px;
+    text-emphasis: middle;
+    padding-top: 15px;
+    padding-bottom: 15px;
 }
 
-.s3 {
-    background-image: url(../imagescsstraining/service\ 3\ copy.JPG);
-    height: 300px;
+.wfss {
+    height: 500px;
+    width: 500px;
+    border-radius: 50%;
 }
 
-.s4 {
-    background-image: url(../imagescsstraining/service\ 4\ copy.jpg);
-    height: 300px;
-}
 
 .navBG span.navbar-toggler-icon>i.fas.fa-bars {
     color: white;
@@ -93,7 +93,7 @@ hr {
     font-family: 'Times New Roman';
 }
 
-#firstbox {
+#box {
     margin-left: 70px;
     margin-bottom: 20px;
     width: 195px;
@@ -104,3 +104,24 @@ hr {
     border-width: 1px;
     padding: 5px;
 }
+/*  */
+.containertip {
+    margin: 40px;
+}
+
+
+/* flex footer */
+.flex-display {
+    display: flex;
+    color: white;
+    background-color: silver;
+    padding: 20px;
+    margin-top: 10px;
+    margin-left: 10px;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 12px;
+  }
+  .me {
+    border-radius: 50%;
+  }
