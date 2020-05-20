@@ -9,12 +9,14 @@
     text-align: center;
     color: black;
     font-size: 30px;
+    font-family: initial;
 }
 
 .subt {
     text-align: center;
     color: black;
     font-size: 15px;
+    font-family: initial;
 }
 
 .containercustom {
@@ -39,6 +41,22 @@
     height: 500px;
     width: 500px;
     border-radius: 50%;
+}
+
+.carousel-indicators li {
+    box-sizing: content-box;
+    -ms-flex: 0 1 auto;
+    flex: 0 1 auto;
+    width: 30px;
+    height: 3px;
+    margin-right: 3px;
+    margin-left: 3px;
+    text-indent: -999px;
+    cursor: pointer;
+    background-color: palevioletred !important;
+    background-clip: padding-box;
+    border-top: 10px solid transparent;
+    border-bottom: 10px 
 }
 
 .navBG span.navbar-toggler-icon>i.fas.fa-bars {
@@ -108,17 +126,3 @@ hr {
 }
 
 
-/* flex footer */
-.flex-display {
-    display: flex;
-    color: white;
-    background-color: silver;
-    padding: 20px;
-    margin-top: 10px;
-    align-items: center;
-    justify-content: space-between;
-    font-size: 12px;
-  }
-  .me {
-    border-radius: 50%;
-  }
