@@ -41,14 +41,19 @@
     height: 500px;
     width: 500px;
     border-radius: 50%;
+    border: black;
+    padding: 10px;
+    border-width: 5px;
+    border-style: groove;
 }
 
 .carousel-indicators li {
+    margin-top: 200px;
     box-sizing: content-box;
     -ms-flex: 0 1 auto;
     flex: 0 1 auto;
     width: 30px;
-    height: 3px;
+    height: 5px;
     margin-right: 3px;
     margin-left: 3px;
     text-indent: -999px;

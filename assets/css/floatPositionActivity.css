@@ -1,108 +1,105 @@
 /**
  * Float Layout Activity
  **/
- img {
- background-size: cover;
+img {
+  height: 800px;
+  width: auto;
 }
 
-  #sidebar {
-    margin-top: 30px;
-    margin-left: 30px;
-    height: 200px;
-    padding: 10px;
-    font-family: initial;
-    float: left;
-    color: white;
-  }
-  #largebar {
-    height:200px;
-    width: 80%;
-    background-color: #d7d7d7;
-    float: left;
-    padding: 10px;
-    font-family: initial;
-    color: white;
-    text-align: center;
-  }
+#sidebar {
+  height: 250px;
+  padding: 10px;
+  background-color: #bc7171;
+  color: white;
+  text-align: right;
+}
 
-  .container {
-    width: 100%;
-  }
+#largebar {
+  height: 250px;
+  background-color: #d7d7d7;
+  padding: 10px;
+  font-family: initial;
+  color: white;
+  text-align: center;
+}
+
 
 /* circle images */
-  #one{
-    width: 20%;
-    padding: 5px;
-    height: 500px;
-    color: #fff;
-    float: left;
-    text-align: center;
-  }
-  #two {
-    width: 20%;
-    padding: 5px;
-    height: 500px;
-    color: white;
-    float: left;
-    text-align: center;
-  }
-  #three {
-    width: 20%;
-    padding: 5px;
-    height: 500px;
-    color: white;
-    float: left;
-    text-align: center;
-  }
-  #four {
-    width: 20%;
-    padding: 5px;
-    height: 500px;
-    color: white;
-    float: left;
-    text-align: center;
-  }
-
-  /* <!-- bootstrap grid excercise --> */
-  .container-fluid {
-    text-align: center;
-    color: white;
+#one {
+  width: 20%;
+  padding: 5px;
+  height: 500px;
+  color: #fff;
+  float: left;
+  text-align: center;
 }
 
-div.col-sm-3 {
-    height: 200px;
-    background-color:mediumturquoise;
-    text-decoration: white;
+#two {
+  width: 20%;
+  padding: 5px;
+  height: 500px;
+  color: white;
+  float: left;
+  text-align: center;
 }
 
-  .pimg { 
-    border-radius: 50%;
-    border-width: 2px;
-    border-color:white;
-    border-style: solid;
-  }
-
-
-  .pho {
-    display: flex;
-    justify-content: center;
+#three {
+  width: 20%;
+  padding: 5px;
+  height: 500px;
+  color: white;
+  float: left;
+  text-align: center;
 }
 
-  .pho img {
-    height: 200px;
-    width: auto;
-  }
-
-  #box {
-    margin-left: 70px;
-    margin-bottom: 20px;
-    width: 195px;
-    height: 40px;
-    background-color: rgb(215, 191, 160);
-    border: dashed;
-    border-color: black;
-    border-width: 1px;
-    padding: 5px;
+#four {
+  width: 20%;
+  padding: 5px;
+  height: 500px;
+  color: white;
+  float: left;
+  text-align: center;
 }
 
- 
+/* <!-- bootstrap grid excercise --> */
+.container {
+  text-align: center;
+  color: white;
+  margin: 10px;
+}
+
+div.col-sm-4 {
+  height: 200px;
+  background-color: mediumturquoise;
+  text-decoration: white;
+}
+
+.pimg {
+  border-radius: 50%;
+  border-width: 2px;
+  border-color: white;
+  border-style: solid;
+}
+
+
+.pho {
+  display: flex;
+  justify-content: center;
+}
+
+.pho img {
+  height: 200px;
+  width: auto;
+}
+
+#box {
+  margin-left: 70px;
+  margin-bottom: 20px;
+  width: 195px;
+  height: 40px;
+  background-color: rgb(215, 191, 160);
+  border: dashed;
+  border-color: black;
+  border-width: 1px;
+  padding: 5px;
+}
