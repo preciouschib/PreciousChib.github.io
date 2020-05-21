@@ -7,15 +7,15 @@ img {
 }
 
 #sidebar {
-  height: 250px;
-  padding: 10px;
+  height: 225px;
   background-color: #bc7171;
   color: white;
-  text-align: right;
+  font-family: initial;
+  text-align: left;
 }
 
 #largebar {
-  height: 250px;
+  height: 125px;
   background-color: #d7d7d7;
   padding: 10px;
   font-family: initial;
@@ -23,6 +23,9 @@ img {
   text-align: center;
 }
 
+#afterpc {
+  opacity: 80%;
+}
 
 /* circle images */
 #one {
@@ -68,7 +71,7 @@ img {
   margin: 10px;
 }
 
-div.col-sm-4 {
+div.col-sm-6 {
   height: 200px;
   background-color: mediumturquoise;
   text-decoration: white;
@@ -95,11 +98,13 @@ div.col-sm-4 {
 #box {
   margin-left: 70px;
   margin-bottom: 20px;
-  width: 195px;
+  width: 100px;
   height: 40px;
+  text-align: center;
   background-color: rgb(215, 191, 160);
   border: dashed;
   border-color: black;
+  opacity: 90%;
   border-width: 1px;
   padding: 5px;
 }
