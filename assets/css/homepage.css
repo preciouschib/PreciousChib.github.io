@@ -1,22 +1,23 @@
-#backpic {
+body {
     background-color: white;
-    background-image: url("../images/purpleflower.JPG");
+    background-image: url("../images/texture-15\ copy.JPG");
     background-size: cover;
 }
 
 #title {
     margin-top: 20px;
     text-align: center;
-    color: black;
-    font-size: 30px;
+    color: white;
+    font-size: 35px;
     font-family: initial;
 }
 
-.subt {
+#afterpc {
     text-align: center;
-    color: black;
-    font-size: 15px;
+    color: white;
+    font-size: 18px;
     font-family: initial;
+        opacity: 85%;
 }
 
 .containercustom {
@@ -41,10 +42,11 @@
     height: 500px;
     width: 500px;
     border-radius: 50%;
-    border: black;
+    border: white;
     padding: 10px;
-    border-width: 3px;
-    border-style: groove;
+    border-width: 5px;
+    border-style: solid;
+    opacity: 95%;
 }
 
 .carousel-indicators li {
@@ -58,7 +60,7 @@
     margin-left: 3px;
     text-indent: -999px;
     cursor: pointer;
-    background-color: palevioletred !important;
+    background-color: transparent !important;
     background-clip: padding-box;
     border-top: 10px solid transparent;
     border-bottom: 10px 

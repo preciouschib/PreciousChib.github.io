@@ -1,17 +1,26 @@
 
 /* background */
 body {
-    background-image: url("assets/imagescsstraining/sky-1.jpg");
+    background-color: white;
+    background-image: url("../imagescsstraining/sky-1.jpg");
     background-size: cover;
-   }
+}
+
+/* contaoner */
+.customContainer {
+        background-color: rgb(223, 223, 223);
+        margin-top: 30px;
+        margin-bottom: 10px;
+}
 
 /* service title */
 .title {
     text-align: center;
     margin-top: 20px;
     margin-bottom: 30px;
-    font-size: 30px;
+    font-size: 35px;
     font-family: initial;
+    color: white;
 }
 
 /* cards */
@@ -56,7 +65,7 @@ a.btn.name {
     font-family: initial;
 }
 
-/*  */
+/* appt */
 .hover-state {
     text-align: center;
     font-size: 15px;
@@ -76,6 +85,7 @@ a.visited-state:visited {
     margin-bottom: 10px;
     margin-top: 20px;
     font-family: initial;
+    color: white;
 
 }
 #p1 {
