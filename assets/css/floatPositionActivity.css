@@ -8,18 +8,7 @@ body {
   background-size: cover;
 }
 
-#sidebar {
-  height: 225px;
-  background-color: #bc7171;
-  color: white;
-  font-family: initial;
-  text-align: left;
-  margin-top:15px;
-}
-
 #largebar {
-  height: 125px;
-  background-color: #d7d7d7;
   padding: 10px;
   font-family: initial;
   color: white;
@@ -30,60 +19,43 @@ body {
   opacity: 80%;
 }
 
-/* circle images */
-#one {
-  width: 20%;
-  padding: 5px;
-  height: 500px;
-  color: #fff;
-  float: left;
+/* container */
+
+#price {
+  font-size: 20px;
+}
+
+.fill {
+  font-style: italic;
+  font-weight: 600;
   text-align: center;
 }
 
-#two {
-  width: 20%;
-  padding: 5px;
-  height: 500px;
-  color: white;
-  float: left;
-  text-align: center;
-}
-
-#three {
-  width: 20%;
-  padding: 5px;
-  height: 500px;
-  color: white;
-  float: left;
-  text-align: center;
-}
-
-#four {
-  width: 20%;
-  padding: 5px;
-  height: 500px;
-  color: white;
-  float: left;
-  text-align: center;
+#LR {
+  font-weight: bold;
+  margin-bottom: 20px;
 }
 
 /* <!-- bootstrap grid excercise --> */
 .container {
   margin: 20px;
+  font-family: 'Times New Roman', Times, serif;
+  background-color: black;
+  color: white;
 }
 
 div.col-sm-6 {
-  height: 200px;
-  background-color: mediumturquoise;
-  text-decoration: white;
+  background-color: black;
+  color: white;
 }
 
-
 #box {
-  margin-left: 70px;
-  margin-bottom: 20px;
+  margin-top: 10px;
+  margin-bottom: 10px;
   width: 100px;
   height: 40px;
+  font-size: 20px;
+  font-weight: 500;
   text-align: center;
   background-color: rgb(215, 191, 160);
   border: dashed;
@@ -98,10 +70,12 @@ div.col-sm-6 {
   text-align: center;
   font-size: 15px;
 }
+
 .hover-state:hover {
   color: gainsboro;
   background-color: transparent;
 }
+
 a.visited-state:visited {
   color: palevioletred;
 }

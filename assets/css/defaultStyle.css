@@ -7,6 +7,11 @@
     color: white;
     font-size: 30px;
 }
+.navbar-toggler-icon {
+    color: white;
+    font-size: 30px;   
+}
+
 .navBG >a.navbar-brand:hover {
     color: white;
 }
@@ -24,9 +29,7 @@
     font-family: 'Times New Roman', Times, serif;
     color: white;
 }
-.dropdown-item {
-    color: palevioletred;
-}
+
 
 #H4H {
     font-weight: bolder;
