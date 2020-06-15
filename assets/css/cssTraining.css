@@ -65,6 +65,13 @@ a.btn.name {
     font-family: initial;
 }
 
+a.btn.name:hover {
+    color: palevioletred;
+    border: black;
+    border-width: .5px;
+    border-style: solid;
+}
+
 /* appt */
 .hover-state {
     text-align: center;

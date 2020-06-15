@@ -6,18 +6,20 @@ body {
 
 #title {
     margin-top: 20px;
-    text-align: center;
+    text-align: right;
     color: white;
-    font-size: 35px;
+    font-size: 25px;
     font-family: initial;
+    margin-right: 20px;
 }
 
 #afterpc {
-    text-align: center;
-    color: white;
-    font-size: 18px;
+    text-align: right;
+    color:white;
+    font-size: 15px;
     font-family: initial;
-        opacity: 85%;
+    opacity: 80%;
+    margin-right: 20px;
 }
 
 .containercustom {
@@ -44,9 +46,8 @@ body {
     border-radius: 50%;
     border: white;
     padding: 10px;
-    border-width: 5px;
+    border-width: 3px;
     border-style: solid;
-    opacity: 95%;
 }
 
 .carousel-indicators li {
@@ -63,7 +64,7 @@ body {
     background-color: transparent !important;
     background-clip: padding-box;
     border-top: 10px solid transparent;
-    border-bottom: 10px 
+    border-bottom: 10px
 }
 
 .navBG span.navbar-toggler-icon>i.fas.fa-bars {
@@ -127,9 +128,8 @@ hr {
     border-width: 1px;
     padding: 5px;
 }
+
 /*  */
 .containertip {
     margin: 40px;
 }
-
-
