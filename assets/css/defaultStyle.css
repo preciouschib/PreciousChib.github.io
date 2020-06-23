@@ -3,9 +3,10 @@
 .navBG {
     background-color: rgb(225, 201, 170)!important;
 }
-.navBG span.navbar-toggler-icon > i {
+.navBG span.navbar-toggler-icon > i.fas.fa-bars {
     color: white;
     font-size: 30px;
+    margin-top: 10px;
 }
 .navbar-toggler-icon {
     color: white;
