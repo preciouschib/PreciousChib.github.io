@@ -19,7 +19,7 @@ body {
     margin-top: 20px;
     margin-bottom: 30px;
     font-size: 35px;
-    font-family: initial;
+    font-family: 'Times New Roman', Times, serif;
     color: white;
 }
 
@@ -44,7 +44,7 @@ body {
     font-size: 18px;
     margin: 5px;
     text-align: center;
-    font-family: initial;
+    font-family: 'Times New Roman', Times, serif;
 }
 
 .card-text {
@@ -52,7 +52,7 @@ body {
     margin-left: 12px;
     font-size: 15px;
     text-align: center;
-    font-family: initial;
+    font-family: 'Times New Roman', Times, serif;
 }
 
 a.btn.name {
@@ -62,7 +62,7 @@ a.btn.name {
     text-align: center;
     justify-content: center;
     display: flex;
-    font-family: initial;
+    font-family: 'Times New Roman', Times, serif;
 }
 
 a.btn.name:hover {
@@ -91,7 +91,7 @@ a.visited-state:visited {
     font-size: 25px;
     margin-bottom: 10px;
     margin-top: 20px;
-    font-family: initial;
+    font-family: 'Times New Roman', Times, serif;
     color: white;
 
 }
